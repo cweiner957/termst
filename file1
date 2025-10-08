@@ -1,0 +1,27 @@
+# 1) Create & enter the folder
+mkdir tiktok-legal-site && cd tiktok-legal-site
+
+# 2) Create files
+cat > index.html <<'HTML'
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TikTok App Legal Documents</title>
+</head><body>
+<h1>Welcome</h1>
+<p>This site hosts my TikTok App legal documents for API registration.</p>
+<ul>
+  <li><a href="privacy.html">Privacy Policy</a></li>
+  <li><a href="terms.html">Terms of Service</a></li>
+</ul>
+</body></html>
+HTML
+
+cat > privacy.html <<'HTML'
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy</title>
+</head><body>
+<h1>Privacy Policy</h1>
+<p>This app is a personal automation tool th
